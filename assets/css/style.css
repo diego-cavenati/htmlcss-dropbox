@@ -139,6 +139,10 @@ button {
 .btn a {
     color: var(--light);
 }
+
+.btn_card {
+    width: 100%;
+}
 /* #endregion button */
 
 /* #region header navbar + jumbotron */
@@ -245,11 +249,57 @@ h2 {
 }
 
 .card_pricing {
-    height: 300px;
     border: 2px solid gray;
     margin: 0 2rem;
 }
 
+.users {
+    text-align: center;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    border-bottom: 2px solid gray;
+}
+
+.info_plan {
+    padding: 2rem 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--dark);
+}
+
+h4 {
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: var(--dark);
+}
+
+.info_plan {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.accounts {
+    margin-top: 2.5rem;
+}
+
+.cloud, .share, .accounts {
+    padding-bottom: 1rem;
+}
+
+.info_plan i {
+    color: var(--dark);
+}
+
+.share {
+    padding-bottom: 2.5rem;
+}
+
+.buy_now {
+    margin: 1rem 0;
+}
 /* partner contact us */
 /* claim dropbox business */
 /* dropbox business users */
