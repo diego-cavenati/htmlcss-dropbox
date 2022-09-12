@@ -44,6 +44,10 @@ button {
 .right {
     text-align: right;
 }
+
+.position_relative {
+    position: relative;
+}
 /* #endregion Utilities */
 
 /* #region flex grid */
@@ -126,14 +130,11 @@ button {
     text-align: center;
     padding: 0.5rem 1rem;
 }
+
 .btn a {
     color: var(--light);
 }
 /* #endregion button */
-
-
-
-
 
 /* #region header navbar + jumbotron */
  
@@ -167,8 +168,36 @@ button {
 }
 
 /* jumbotron */
+#jumbotron {
+    background-color: var(--secondary);
+    padding-top: 5rem;
+}
+
+#jumbotron h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5rem;
+}
+
+#jumbotron .col-4 {
+margin-top: 2.5rem;
+}
+
+.img_jumbotron {
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+}
+
+#jumbotron .btn {
+    margin: 1.5rem 0;
+}
 
 
-
+#jumbotron i {
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
 /* #endregion header navbar + jumbotron */
 
