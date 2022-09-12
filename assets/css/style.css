@@ -44,7 +44,7 @@ a {
     margin: 0 auto;
 }
 
-.container-fluid{
+.container_fluid{
     width: 100%;
 }
 
@@ -102,3 +102,8 @@ a {
     width: calc((100% / 12) * 12);
 }
 /* #endregion flex grid */
+
+
+.debug {
+    max-width: 1095px;
+}
