@@ -9,13 +9,22 @@ img {
     max-width: 100%;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     color: var(--dark);
 }
 
 a {
     text-decoration: none;
+    color: var(--dark);
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 /* #endregion Common Rules */
 
@@ -40,7 +49,7 @@ a {
 /* #region flex grid */
 .container {
     width: 80%;
-    max-width: 690px;
+    max-width: 1195px;
     margin: 0 auto;
 }
 
@@ -103,7 +112,63 @@ a {
 }
 /* #endregion flex grid */
 
-
+/* #region debug */
 .debug {
-    max-width: 1095px;
+    max-width: 1920px;
 }
+/* #endregion debug */
+
+
+/* #region button */
+.btn {
+    background-color: var(--primary);
+    color: var(--light);
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+.btn a {
+    color: var(--light);
+}
+/* #endregion button */
+
+
+
+
+
+/* #region header navbar + jumbotron */
+ 
+/* navbar */
+#navbar {
+    padding: 1.5rem 1.1rem;
+    background-color: var(--light);
+}
+
+#navbar .col-6 {
+    display: flex;
+    align-items: center;
+}
+
+.m_left {
+    margin-left: 2rem;
+}
+
+.m_right {
+    margin-right: 2rem;
+}
+
+#navbar span {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 1rem;
+}
+
+#navbar .col-6:last-child {
+    justify-content: end;
+}
+
+/* jumbotron */
+
+
+
+/* #endregion header navbar + jumbotron */
+
