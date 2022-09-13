@@ -71,6 +71,11 @@ p {
     color: var(--primary);
     cursor: pointer;
 }
+
+.flex {
+    display: flex;
+}
+
 /* #endregion Utilities */
 
 /* #region flex grid */
@@ -167,6 +172,10 @@ p {
     color: gray;
     background-color: var(--light);
     border: 1px solid gray;
+}
+
+.btn_team_enterprise {
+    padding: 0.5 3rem;
 }
 
 .btn_free_trial {
@@ -276,23 +285,27 @@ h2 {
 
 #pricing > .row > .col-10 > .row {
     justify-content: space-between;
-    margin: 0 -2rem;
+    margin: 0 -1rem;
 }
 
 .card_pricing {
-    border: 2px solid gray;
-    margin: 0 2rem;
+    border: 1px solid rgb(179, 179, 179);
+    margin: 0 1rem;
+}
+
+.card_vh {
+    height: 75vh;
 }
 
 .users {
     text-align: center;
     padding: 0.4rem;
     font-size: 0.8rem;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid rgb(179, 179, 179);
 }
 
 .info_plan {
-    padding: 2rem 1.5rem;
+    padding: 2rem 2rem;
 }
 
 h3 {
@@ -310,6 +323,10 @@ h4 {
 .info_plan {
     font-size: 0.8rem;
     color: gray;
+}
+
+ .share.flex > i, .cloud.flex > i, .accounts.flex > i {
+    margin-right: 0.4rem;
 }
 
 .accounts {
@@ -333,9 +350,12 @@ h4 {
 }
 
 #team_enterprise {
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
+#team_enterprise h4 {
+    padding-bottom: 2.5rem;
+}
 /* partner contact us */
 #partner {
     padding: 4rem 0;
@@ -377,7 +397,7 @@ padding: 3rem 0;
 
 /* dropbox business users */
 #dropbox_business_users {
-    padding: 10rem 0;
+    padding: 8rem 0;
 }
 
 #dropbox_business_users h2 {
@@ -459,10 +479,6 @@ padding: 3rem 0;
 #bring_dropbox {
     background-color: var(--secondary);
     padding: 6rem;
-}
-
-#bring_dropbox .col-10 {
-    display: flex;
 }
 
 #bring_dropbox .col-6.right {
