@@ -484,9 +484,42 @@ align-self: flex-start;
 /* #region footer */
 footer {
     background-color: var(--dark);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+footer a, footer h4 {
     color: var(--light);
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+}
+
+footer h4 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    font-size: 0.8rem;
+    padding: 0.4rem 0;
+}
+
+footer .col-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .col-10 {
+    padding: 5rem 0 1.5rem 0;
+}
+
+footer hr {
+    width: 10%;
+}
+
+footer span {
+    margin-top: 2rem;
+    display: inline-block;
+    color: var(--dark_light);
+    font-size: 0.8rem;;
 }
 
 /* #endregion footer */
