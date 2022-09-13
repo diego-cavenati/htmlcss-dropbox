@@ -168,6 +168,12 @@ p {
     background-color: var(--light);
     border: 1px solid gray;
 }
+
+.btn_free_trial {
+    color: gray;
+    background-color: var(--light);
+    padding: 0.5rem 2rem;
+}
 /* #endregion button */
 
 /* #region header navbar + jumbotron */
@@ -402,7 +408,6 @@ padding: 3rem 0;
     margin: 3rem 0;
 }
 
-
 #casehistory .col-4 {
     aspect-ratio: 1/1;
 }
@@ -451,6 +456,37 @@ padding: 3rem 0;
 }
 
 /* bring dropbox business in your agency */
+#bring_dropbox {
+    background-color: var(--secondary);
+    padding: 6rem;
+}
+
+#bring_dropbox .col-10 {
+    display: flex;
+}
+
+#bring_dropbox .col-6.right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#bring_dropbox .col-6.right > button{
+align-self: flex-start;
+}
+
 /* faq */
+#faq {
+    padding: 10rem 0;
+}
 
 /* #endregion mainpage contens */
+
+/* #region footer */
+footer {
+    background-color: var(--dark);
+    color: var(--light);
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+/* #endregion footer */
