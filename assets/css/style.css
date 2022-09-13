@@ -39,6 +39,15 @@ p {
     --secondary: #B4D0E7;
     --dark_light: #F5F5F5;
     --light: #FFFFFF;
+    --palette_01: #A2D39B;
+    --palette_02: #61082B;
+    --palette_03: #0093CE;
+    --palette_04: #FF1C1C;
+    --palette_05: #D5001F;
+    --palette_06: #B4D0E7;
+    --palette_07: #0D2481;
+    --palette_08: #FFD830;
+
 }
 
 .center {
@@ -369,7 +378,77 @@ padding: 3rem 0;
     padding: 3rem 0;
 }
 
+/* casehistory */
+#casehistory {
+    background-color: var(--dark_light);
+}
 
+.brand {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review {
+    padding: 2rem;
+}
+
+.review img {
+    width: 50%;
+
+}
+
+.review hr {
+    width: 20%;
+    margin: 3rem 0;
+}
+
+
+#casehistory .col-4 {
+    aspect-ratio: 1/1;
+}
+
+#casehistory .col-6 {
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#casehistory .col-6 > img{
+    width: 60%;
+}
+
+.palette_01 {
+    background-color: var(--palette_01);
+}
+
+.palette_02 {
+    background-color: var(--palette_02);
+}
+
+.palette_03 {
+    background-color: var(--palette_03);
+}
+
+.palette_04 {
+    background-color: var(--palette_04);
+}
+
+.palette_05 {
+    background-color: var(--palette_05);
+}
+
+.palette_06 {
+    background-color: var(--palette_06);
+}
+
+.palette_07 {
+    background-color: var(--palette_07);
+}
+
+.palette_08 {
+    background-color: var(--palette_08);
+}
 
 /* bring dropbox business in your agency */
 /* faq */
