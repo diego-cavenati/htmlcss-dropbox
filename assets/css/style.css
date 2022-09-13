@@ -26,6 +26,10 @@ button {
     display: inline-block;
     cursor: pointer;
 }
+p {
+    font-weight: 300;
+    color: gray;
+}
 /* #endregion Common Rules */
 
 /* #region Utilities */
@@ -142,6 +146,12 @@ button {
 
 .btn_card {
     width: 100%;
+}
+
+.btn_partner {
+    color: gray;
+    background-color: var(--light);
+    border: 1px solid gray;
 }
 /* #endregion button */
 
@@ -300,7 +310,32 @@ h4 {
 .buy_now {
     margin: 1rem 0;
 }
+
+#team_enterprise {
+    padding: 3rem 0;
+}
+
 /* partner contact us */
+#partner {
+    padding: 4rem 0;
+}
+
+#partner .col-10 {
+    display: flex;
+    align-items: flex-start;
+}
+
+#partner .col-4 {
+    padding: 2rem;
+}
+
+#partner p {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+
 /* claim dropbox business */
 /* dropbox business users */
 /* bring dropbox business in your agency */
