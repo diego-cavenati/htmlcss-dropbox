@@ -56,6 +56,12 @@ p {
 .space_between {
     justify-content: space-between;
 }
+
+.link {
+    text-decoration: underline;
+    color: var(--primary);
+    cursor: pointer;
+}
 /* #endregion Utilities */
 
 /* #region flex grid */
@@ -334,10 +340,37 @@ h4 {
     padding-bottom: 2rem;
 }
 
-
-
 /* claim dropbox business */
+#dropbox_business .col-10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#dropbox_business h2 {
+padding: 3rem 0;
+}
+
+#dropbox_business .col-4 {
+    padding: 0.5rem;
+}
+
+#dropbox_business p {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
 /* dropbox business users */
+#dropbox_business_users {
+    padding: 10rem 0;
+}
+
+#dropbox_business_users h2 {
+    padding: 3rem 0;
+}
+
+
+
 /* bring dropbox business in your agency */
 /* faq */
 
