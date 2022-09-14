@@ -18,6 +18,7 @@ a {
     text-decoration: none;
     color: var(--dark);
     cursor: pointer;
+    display: inline-block;
 }
 
 button {
@@ -528,7 +529,7 @@ padding: 3rem 0;
     flex-direction: row-reverse;
 }
 
-#bring_dropbox .col-6.right > button{
+#bring_dropbox .col-6.right > a {
 align-self: flex-start;
 }
 
@@ -550,9 +551,19 @@ align-self: flex-start;
 }
 
 #faq i:hover {
-
+    color: var(--primary);
 }
 
+#faq i:visited {
+    transform: rotate(180deg);
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+}
 /* #endregion mainpage contens */
 
 /* #region footer */
