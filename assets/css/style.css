@@ -151,7 +151,6 @@ p {
 }
 /* #endregion debug */
 
-
 /* #region button */
 .btn {
     background-color: var(--primary);
@@ -291,10 +290,15 @@ h2 {
 .card_pricing {
     border: 1px solid rgb(179, 179, 179);
     margin: 0 1rem;
+    position: relative;
+}
+
+.main_info {
+    margin-top: -0.1rem;
 }
 
 .card_vh {
-    height: 75vh;
+    height: 80vh;
 }
 
 .users {
@@ -321,11 +325,18 @@ h4 {
 }
 
 .info_plan {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: gray;
 }
 
- .share.flex > i, .cloud.flex > i, .accounts.flex > i {
+.card_info {
+    position: absolute;
+    top: 20%;
+    left: 2rem;
+    right: 2rem;
+}
+
+.share.flex > i, .cloud.flex > i, .accounts.flex > i {
     margin-right: 0.4rem;
 }
 
@@ -347,6 +358,36 @@ h4 {
 
 .buy_now {
     margin: 1rem 0;
+}
+
+#pricing ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pricing li {
+    padding-left: 1.3em;
+    padding-bottom: 1rem;
+}
+
+#pricing li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: var(--primary);
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+
+.card_info h4 {
+    padding-bottom: 1.5rem;
+}
+
+.card_info hr {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    width: 20%;
+    color: gray;
 }
 
 #team_enterprise {
@@ -441,6 +482,7 @@ padding: 3rem 0;
 
 #casehistory .col-6 > img{
     width: 60%;
+    filter: invert(100%);
 }
 
 .palette_01 {
@@ -492,7 +534,23 @@ align-self: flex-start;
 
 /* faq */
 #faq {
-    padding: 10rem 0;
+    padding: 8rem 0;
+}
+
+#faq h2 {
+    padding-bottom: 3rem;
+}
+
+#faq hr {
+    color: rgb(184, 11, 11);
+}
+
+#faq p {
+   display: none;
+}
+
+#faq i:hover {
+
 }
 
 /* #endregion mainpage contens */
