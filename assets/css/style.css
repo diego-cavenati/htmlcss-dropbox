@@ -27,6 +27,7 @@ button {
     display: inline-block;
     cursor: pointer;
 }
+
 p {
     font-weight: 300;
     color: gray;
@@ -242,12 +243,35 @@ margin-top: 2.5rem;
     margin: 1.5rem 0;
 }
 
-
-#jumbotron i {
-    font-size: 3rem;
+.effect_up_down {
     margin-top: 5rem;
     margin-bottom: 1rem;
 }
+
+
+#jumbotron i {
+    font-size: 3rem;
+}
+
+#jumbotron .effect_up_down:hover {
+    animation-duration: 1s;
+    animation: updown 2s infinite;
+    position: relative;
+}
+
+
+@keyframes updown {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 20px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
 /* #endregion header navbar + jumbotron */
 
 /* #region mainpage contens */
@@ -462,7 +486,6 @@ padding: 3rem 0;
 
 .review img {
     width: 50%;
-
 }
 
 .review hr {
@@ -479,6 +502,14 @@ padding: 3rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#casehistory .col-6:hover{
+border: 20px solid  rgba(255, 255, 255, 0.487);
+}
+
+#casehistory .col-6:active{
+    border: 20px solid  rgba(255, 255, 255, 0.487);
 }
 
 #casehistory .col-6 > img{
@@ -530,7 +561,7 @@ padding: 3rem 0;
 }
 
 #bring_dropbox .col-6.right > a {
-align-self: flex-start;
+    align-self: flex-start;
 }
 
 /* faq */
@@ -548,21 +579,27 @@ align-self: flex-start;
 
 #faq p {
    display: none;
+   padding-bottom: 2rem;
+   padding-top: 1rem;
 }
 
-#faq i:hover {
+#faq .question:hover i {
     color: var(--primary);
+    transform: rotate(180deg)
 }
 
-#faq i:visited {
-    transform: rotate(180deg);
+#faq .question:hover p {
+    display: block;
 }
 
 .question {
+    padding: 1.2rem 0;    
+}
+
+.head_question {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.2rem 0;
 }
 /* #endregion mainpage contens */
 
