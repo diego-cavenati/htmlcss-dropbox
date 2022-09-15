@@ -192,6 +192,8 @@ p {
 #navbar {
     padding: 1.5rem 1.1rem;
     background-color: var(--light);
+    position: fixed;
+    z-index: 999;
 }
 
 #navbar .col-6 {
@@ -220,7 +222,7 @@ p {
 /* jumbotron */
 #jumbotron {
     background-color: var(--secondary);
-    padding-top: 5rem;
+    padding-top: 10rem;
 }
 
 #jumbotron h1 {
